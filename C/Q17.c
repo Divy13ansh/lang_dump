@@ -1,0 +1,10 @@
+#include <stdio.h>
+void main(){
+    int i,j,z;
+    for(i=1,z=69;i<=5;i++,z--){
+            for(j=1;j<=i;j++){
+                printf(" ");
+            }
+            printf("%c\n",z);
+    }
+}
