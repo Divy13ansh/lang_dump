@@ -19,18 +19,18 @@ func safeSqrt(n *int) (float64, error){
 	}
 }
 
-func main(){
-	a := 10
-	b := 16
+// func main(){
+// 	a := 10
+// 	b := 16
 
-	fmt.Println("BEFORE")
-	fmt.Println("a: ", a)
-	fmt.Println("b: ", b)
+// 	fmt.Println("BEFORE")
+// 	fmt.Println("a: ", a)
+// 	fmt.Println("b: ", b)
 
-	doubleValue(&a)
-	safeSqrt(&b)
+// 	doubleValue(&a)
+// 	safeSqrt(&b)
 
-	fmt.Println("AFTER")
-	fmt.Println("a: ", a)
-	fmt.Println("b: ", b)
-}
+// 	fmt.Println("AFTER")
+// 	fmt.Println("a: ", a)
+// 	fmt.Println("b: ", b)
+// }
